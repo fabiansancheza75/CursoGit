@@ -4,4 +4,4 @@
   
 SELECT first_name, age
 FROM Customers
-Where customer_id < 3 and age < 15
+Where customer_id < 3 and age < 15 and left(first_name, 5) =  '-----'
